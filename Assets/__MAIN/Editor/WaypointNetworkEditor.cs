@@ -16,7 +16,7 @@ public class WaypointNetworkEditor : Editor
             Debug.Log("in here");
             
             if (network.Waypoints[i] != null)
-                Handles.Label(network.Waypoints[i].position, "Waypoint ALUU " + i.ToString() );
+                Handles.Label(network.Waypoints[i].position, "Waypoint " + i.ToString() );
         }
         Vector3[] linePoints = new Vector3[network.Waypoints.Count + 1];
 
